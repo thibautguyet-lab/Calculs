@@ -17,6 +17,9 @@ namespace Calculs
             string choix; // saisie du choix de l'utilsiateur
             bool correct; // mémorise si la saisie est un entier
 
+            //présentation de la consigne
+            Console.WriteLine("Vous allez devoir sélectionner un chiffre pour entrer dnas l'activitée. Appuyer sur n'importe quelle touche.");
+            Console.ReadLine();
             // boucle sur le menu
             choix = "1";
             while (choix != "0")
