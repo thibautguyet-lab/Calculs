@@ -19,12 +19,12 @@ namespace Calculs
 
             // boucle sur le menu
             choix = "1";
-            while (choix != "0")
+            while (choix != "3")
             {
                 // affiche le menu et saisi le choix
                 Console.WriteLine("Addition ....................... 1");
                 Console.WriteLine("Multiplication ................. 2");
-                Console.WriteLine("Quitter ........................ 0");
+                Console.WriteLine("Quitter ........................ 3");
                 Console.Write("Choix :                          ");
                 choix = Console.ReadLine();
                 // traitement des choix
@@ -86,7 +86,7 @@ namespace Calculs
                             Console.WriteLine("Faux : " + val1 + " x " + val2 + " = " + solution);
                         }
                         break;
-                    case "0": // demande de fin de programme
+                    case "3": // demande de fin de programme
                         break;
                     default: // autre valeur donc erreur de saisie
                         Console.WriteLine("Erreur de saisie");
